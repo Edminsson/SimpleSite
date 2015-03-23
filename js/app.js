@@ -83,7 +83,7 @@ app.directive('tabellen', function(){
       data: '=',
       columns:'='
     },
-    templateUrl: 't_table.html',
+    templateUrl: 'templates/t_table.html',
     link: function(scope,element,attrs){
       //scope.columns=['uno','dos'];
       //scope.data = ['1','2'];

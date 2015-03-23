@@ -1,0 +1,8 @@
+<table border="1">
+  <tr>
+    <th ng-repeat="col in columns">{{col}}</th>
+  </tr>
+  <tr ng-repeat="rec in data">
+    <td ng-repeat="cname in columns">{{rec[$index]}}</td>
+  </tr>
+</table>
